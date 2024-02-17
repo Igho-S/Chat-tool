@@ -12,17 +12,19 @@ This is a simple chat application implemented in C++. It exchanges text broadcas
    - (Install CMake).
    - Navigate to the root directory of the project.
    - Run the following commands:
-
+  
+     ``` 
      mkdir build
      cd build
      cmake ..
      make
+     ```
 
 2. Starting the chat server and client:
    - Run the following command:
-
+     ``` 
      ./chat <IP Address> <port>
-
+     ```
    * Replace <port> and <IP address> with the desired numbers for the server.
 
 3. Chatting:
